@@ -60,11 +60,16 @@ body {
 
 .icon-circle {
     border-radius: 50%;
-    border: 1px solid #7743DB;
+    border: 2px solid #7743DB;
     margin: 10px;
     width: 75px;
     length: 75px;
     display: inline;
+}
+
+.icon-circle:hover {
+    border: 2px solid #EA047E;
+    transition: all 0.7s;
 }
 
 .card {
