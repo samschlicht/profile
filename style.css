@@ -1,11 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700");
 @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 
-h1, h2 { font-family: 'Orbitron'; }
+h1, h2, button-text { font-family: 'Orbitron'; }
 
 h1 {
     font-size: 24px;
     color: #153462;
+}
+
+button-text{
+    margin:0;
+    padding:0;
+    font-size:24px;
+    text-transform:uppercase;
+    position:relative;
+    color:#EA047E;
+}
+button-text:before{
+    content:"INTRIGUED?";
+    position:absolute;
+    color:#7743DB;
+    top:0;
+    left:0;
+    width:0%;
+    overflow:hidden;
+    transition:all 0.5s;
+}
+button-text:hover:before{
+    width:100%;
 }
 
 h2 {
@@ -32,8 +54,8 @@ body {
 }
 
 .enlarge:hover {
-    scale: 1.25;
-    transition: all 0.3s;
+    scale: 1.1;
+    transition: all 0.7s;
 }
 
 .icon-circle {
