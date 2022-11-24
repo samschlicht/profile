@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700");
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+h1, h2 { font-family: 'Orbitron'; }
+
+h1 {
+    font-size: 24px;
+    color: #153462;
+}
+
+h2 {
+    font-size: 14px;
+    color: #7743DB;
+}
+
+p {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    color: #153462;
+}
+
+body {
+    background-color: #153462;
+}
+
+.photo-circle {
+    border-radius: 50%;
+    border: 1px solid #7743DB;
+    margin: 10px;
+    width: 150px;
+    length: 150px
+}
+
+.icon-circle {
+    border-radius: 50%;
+    border: 1px solid #7743DB;
+    margin: 10px;
+    width: 75px;
+    length: 75px;
+    display: inline;
+}
+
+.card {
+    background-color: #BAD1C2;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    text-align: center;
+    border: 1px solid #7743DB;
+    width: 30%;
+    margin: 20px auto;
+}
+
+.intro-card {
+    background-color: #BAD1C2;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    text-align: center;
+    border: 1px solid #7743DB;
+    width: 30%;
+    margin: 20px auto;
+}
+
+.icon-set {
+    text-align: center;
+}
+
+.icon {
+    margin: 25px;
+    display: inline;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.button {
+    background-color: #7743DB;
+    border: none;
+}
+
+.button:hover {
+    background-color: #EA047E;
+    transition: 0.7s;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+        width: 800px;
+    }
+    .icon {
+        margin: 25px;
+        display: block;
+    }
+
+
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+        width: 600px;
+    }
+    .icon {
+        margin: 25px;
+        display: block;
+    }
+
+@media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+        width: 400px;
+    }
+    .icon {
+        margin: 25px;
+        display: block;
+    }
+
