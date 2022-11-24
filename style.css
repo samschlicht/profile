@@ -31,6 +31,11 @@ body {
     length: 150px
 }
 
+.enlarge:hover {
+    scale: 1.25;
+    transition: all 0.3s;
+}
+
 .icon-circle {
     border-radius: 50%;
     border: 1px solid #7743DB;
