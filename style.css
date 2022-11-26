@@ -79,7 +79,6 @@ body {
     margin: 20px 20px;
     text-align: center;
     border: 1px solid #7743DB;
-    width: 30%;
     margin: 20px auto;
 }
 
@@ -90,7 +89,6 @@ body {
     margin: 20px 20px;
     text-align: center;
     border: 1px solid #7743DB;
-    width: 30%;
     margin: 20px auto;
 }
 
@@ -104,6 +102,7 @@ body {
 }
 
 .container {
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -117,21 +116,10 @@ body {
     transition: 0.7s;
 }
 
-@media (max-width: 960px) {
-    /* For a screen < 960px, this CSS will be read */
-    .container {
-        width: 800px;
-    }
-    .icon {
-        margin: 25px;
-        display: block;
-    }
-
-
 @media (max-width: 720px) {
     /* For a screen < 720px, this CSS will be read */
     .container {
-        width: 600px;
+        width: 500px;
     }
     .icon {
         margin: 25px;
